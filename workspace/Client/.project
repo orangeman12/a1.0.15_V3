@@ -37,15 +37,24 @@
 		</link>
 	</linkedResources>
 	<filteredResources>
-    <filter>
-      <id>1433235573506</id>
-      <name></name>
-      <type>30</type>
-      <matcher>
-        <id>org.eclipse.ui.ide.multiFilter</id>
-        <arguments>1.0-name-matches-false-false-Client.iml</arguments>
-      </matcher>
-    </filter>
+		<filter>
+			<id>1433235573506</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-Client.iml</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1676396098703</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
 		<filter>
 			<id>1307293455427</id>
 			<name>jars</name>
@@ -56,21 +65,21 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1307305288908</id>
-			<name>start</name>
-			<type>13</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.java</arguments>
-			</matcher>
-		</filter>
-		<filter>
 			<id>1307293504507</id>
 			<name>lib</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1307305288908</id>
+			<name>start</name>
+			<type>13</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.java</arguments>
 			</matcher>
 		</filter>
 		<filter>

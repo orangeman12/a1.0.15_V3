@@ -169,7 +169,7 @@ public abstract class Minecraft implements Runnable {
 			Display.setDisplayMode(new DisplayMode(this.displayWidth, this.displayHeight));
 		}
 
-		Display.setTitle("Minecraft Minecraft Alpha v1.0.15");
+		Display.setTitle("Minecraft Minecraft Alpha v1.0.15aaa");
 
 		try {
 			Display.create();
@@ -1114,7 +1114,7 @@ public abstract class Minecraft implements Runnable {
 
 	public static void startMainThread(String username, String string1) {
 		boolean z2 = false;
-		Frame frame5 = new Frame("Minecraft");
+		Frame frame5 = new Frame("NOTMinecraft");
 		Canvas canvas6 = new Canvas();
 		frame5.setLayout(new BorderLayout());
 		frame5.add(canvas6, "Center");
