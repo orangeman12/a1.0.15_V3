@@ -108,7 +108,7 @@ public class GuiMainMenu extends GuiScreen {
 		GL11.glScalef(f5, f5, f5);
 		this.drawCenteredString(this.fontRenderer, this.splashString, 0, -8, 16776960);
 		GL11.glPopMatrix();
-		String string6 = "Copyright Mojang Specifications. Do not distribute.";
+		String string6 = "Copyright ??? Specifications. Do not distribute.";
 		this.drawString(this.fontRenderer, string6, this.width - this.fontRenderer.getStringWidth(string6) - 2, this.height - 10, 0xFFFFFF);
 		long j7 = Runtime.getRuntime().maxMemory();
 		long j9 = Runtime.getRuntime().totalMemory();

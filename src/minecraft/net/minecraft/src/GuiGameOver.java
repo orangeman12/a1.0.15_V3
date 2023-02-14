@@ -37,7 +37,7 @@ public class GuiGameOver extends GuiScreen {
 		this.drawGradientRect(0, 0, this.width, this.height, 1615855616, -1602211792);
 		GL11.glPushMatrix();
 		GL11.glScalef(2.0F, 2.0F, 2.0F);
-		this.drawCenteredString(this.fontRenderer, "Game over!", this.width / 2 / 2, 30, 0xFFFFFF);
+		this.drawCenteredString(this.fontRenderer, "YOU DIED!", this.width / 2 / 2, 30, 0xFFFFFF);
 		GL11.glPopMatrix();
 		this.drawCenteredString(this.fontRenderer, "Score: &e" + this.mc.thePlayer.getScore(), this.width / 2, 100, 0xFFFFFF);
 		super.drawScreen(i1, i2, f3);

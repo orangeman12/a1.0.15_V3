@@ -13,7 +13,7 @@ public class GuiIngameMenu extends GuiScreen {
 		}
 
 		this.controlList.add(new GuiButton(4, this.width / 2 - 100, this.height / 4 + 24, "Back to game"));
-		this.controlList.add(new GuiButton(0, this.width / 2 - 100, this.height / 4 + 96, "Options..."));
+		this.controlList.add(new GuiButton(0, this.width / 2 - 100, this.height / 4 + 96, "Options"));
 	}
 
 	protected void actionPerformed(GuiButton guiButton1) {
@@ -49,10 +49,10 @@ public class GuiIngameMenu extends GuiScreen {
 			float f5 = ((float)(this.updateCounter % 10) + f3) / 10.0F;
 			f5 = MathHelper.sin(f5 * (float)Math.PI * 2.0F) * 0.2F + 0.8F;
 			int i6 = (int)(255.0F * f5);
-			this.drawString(this.fontRenderer, "Saving level..", 8, this.height - 16, i6 << 16 | i6 << 8 | i6);
+			this.drawString(this.fontRenderer, "Saving level", 8, this.height - 16, i6 << 16 | i6 << 8 | i6);
 		}
 
-		this.drawCenteredString(this.fontRenderer, "Game menu", this.width / 2, 40, 0xFFFFFF);
+		this.drawCenteredString(this.fontRenderer, "Pause menu", this.width / 2, 40, 0xFFFFFF);
 		super.drawScreen(i1, i2, f3);
 	}
 }
