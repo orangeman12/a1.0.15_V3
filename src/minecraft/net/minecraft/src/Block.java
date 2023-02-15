@@ -39,6 +39,7 @@ public class Block {
 	public static final BlockLeaves leaves = (BlockLeaves)(new BlockLeaves(18, 52)).setHardness(0.2F).setLightOpacity(1).setStepSound(soundGrassFootstep);
 	public static final Block sponge = (new BlockSponge(19)).setHardness(0.6F).setStepSound(soundGrassFootstep);
 	public static final Block glass = (new BlockGlass(20, 49, Material.glass, false)).setHardness(0.3F).setStepSound(soundGlassFootstep);
+	public static final Block Test = (new BlockGlass(20, 49, Material.glass, true)).setHardness(0.1F).setStepSound(soundGlassFootstep);
 	public static final Block clothRed = null;
 	public static final Block clothOrange = null;
 	public static final Block clothYellow = null;

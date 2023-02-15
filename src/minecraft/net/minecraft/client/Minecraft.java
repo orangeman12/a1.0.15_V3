@@ -1114,7 +1114,7 @@ public abstract class Minecraft implements Runnable {
 
 	public static void startMainThread(String username, String string1) {
 		boolean z2 = false;
-		Frame frame5 = new Frame("NOTMinecraft");
+		Frame frame5 = new Frame("AAAAAAAAAAAAMinecraft");
 		Canvas canvas6 = new Canvas();
 		frame5.setLayout(new BorderLayout());
 		frame5.add(canvas6, "Center");
