@@ -154,7 +154,7 @@ public class GuiIngame extends Gui {
 			string21 = "Allocated memory: " + j27 * 100L / j22 + "% (" + j27 / 1024L / 1024L + "MB)";
 			this.drawString(fontRenderer8, string21, i6 - fontRenderer8.getStringWidth(string21) - 2, 12, 14737632);
 		} else {
-			fontRenderer8.drawStringWithShadow("Minecraft Alpha v1.0.15_V3_SUPEREARLY", 2, 2, 0xFFFFFF);
+			fontRenderer8.drawStringWithShadow("Minecraft Alpha v1.0.15_V3_EARLY", 2, 2, 0xFFFFFF);
 			fontRenderer8.drawStringWithShadow("[PLAYTEST.VER]", 14, 14, 0xFF0000);
 		}
 
